@@ -1,0 +1,17 @@
+name: "YS_GFP_POS_D"
+output_dir: ../docs
+navbar:
+  title: "YS_GFP_POS_D"
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: License
+    href: license.html
+output:
+  workflowr::wflow_html:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+    highlight: textmate
